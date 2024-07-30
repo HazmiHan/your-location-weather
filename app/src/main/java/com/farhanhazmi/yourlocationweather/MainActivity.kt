@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var locationProvider: LocationProvider
     private lateinit var weatherApiService: WeatherApiService
     private lateinit var fusedLocationClient: FusedLocationProviderClient
-    private val apiKey = "135555e7dcfdb9b861868233fb5fa2e6"
+    private val apiKey = "API_KEY"
 
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
